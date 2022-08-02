@@ -1,12 +1,16 @@
 body{
     background-color: #E5E7EB;
     font-family: "Audiowide", sans-serif;
+    text-align: center;
+    font-size: 30px;
 }
 
+button {
+    border: none !important;
+}​
+
 .title{
-    text-align: center;
     font-weight: bolder;
-    font-size: 70px;
 }
 
 .results{
@@ -81,6 +85,10 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+#rock-button{
+    height: 110px;
+    width: 110px;
+}
 
 .paper-image{
     height: 120px;
@@ -91,6 +99,11 @@ body{
     margin-right: auto;
 }
 
+#paper-button{
+    height: 110px;
+    width: 110px;
+}
+
 .scissor-image{
     height: 120px;
     width: 120px;
@@ -99,10 +112,17 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+
+#scissor-button{
+    height: 110px;
+    width: 110px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
   background-color: #1F2937;
   align-items: center;
   color: #F9FAF8;
+  font-size: 20px;
 }

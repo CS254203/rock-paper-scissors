@@ -53,6 +53,3 @@ function playRound(playerSelection,computerSelection){
             break;
     }
 }
-//let playerChoice = prompt("Rock,Paper,Scissors ?");
-
-//console.log(playRound(playerChoice,getComputerChoice()));
