@@ -1,0 +1,108 @@
+body{
+    background-color: #E5E7EB;
+    font-family: "Audiowide", sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.results{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.human-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.score{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.computer-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-box{
+    width: 130px;
+    height: 130px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 5px;
+    color: #F9FAF8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.options{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.rock-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paper-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scissor-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  align-items: center;
+  color: #F9FAF8;
+}
