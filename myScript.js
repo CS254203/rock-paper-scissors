@@ -53,12 +53,12 @@ function getRockButtonValue(){
 
 function getPaperButtonValue(){    
     const paperValue = document.querySelector("#paper-button").value;
-    playRound(paperValue,getComputerChoice());
+    changescore( playRound(paperValue,getComputerChoice()));
 }
 
 function getScissorsButtonValue(){    
     const scissorsValue = document.querySelector("#scissor-button").value;
-    playRound(scissorsValue,getComputerChoice());
+    changescore(playRound(scissorsValue,getComputerChoice()));
 }
 
 
