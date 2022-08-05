@@ -5,66 +5,57 @@ function getComputerChoice(){
 }
 
 function playRound(playerSelection,computerSelection){
+    console.log(computerSelection);
     switch(true){
         case computerSelection === "rock" && playerSelection === "rock":
             console.log("tie");
             return "tie";
-            break;
 
         case computerSelection === "rock" && playerSelection === "paper":
             console.log("win");
             return "win";
-            break;
 
         case computerSelection === "rock" && playerSelection === "scissors":
             console.log("lose");
             return "lose";
-            break;
 
         case computerSelection === "paper" && playerSelection === "rock":
             console.log("lose");
             return "lose";
-            break;
 
         case computerSelection === "paper" && playerSelection === "paper":
             console.log("tie");
             return "tie";
-            break;
 
         case computerSelection === "paper" && playerSelection === "scissors":
             console.log("win");
             return "win";
-            break;
 
         case computerSelection === "scissors" && playerSelection === "rock":
             console.log("win");
             return "win";
-            break;
 
         case computerSelection === "scissors" && playerSelection === "paper":
             console.log("lose");
             return "lose";
-            break;
 
         case computerSelection === "scissors" && playerSelection === "scissors":
             console.log("tie");
             return "tie";
-            break;
     }
 }
 
-function getButtonValue(){
-// buttons is a node list. It looks and acts much like an array.
-const buttons = document.querySelectorAll('button');
-
-// we use the .forEach method to iterate through each button
-buttons.forEach((button) => {
-
-  // and for each one we add a 'click' listener
-  button.addEventListener('click', () => {
-    console.log("GETBUTTONVALUE = " + button.value);
-    return button.value;
-  });
-});
+function getRockButtonValue(){    
+    const rockValue = document.querySelector("#rock-button").value;
+    playRound(rockValue,getComputerChoice());
 }
 
+function getPaperButtonValue(){    
+    const paperValue = document.querySelector("#paper-button").value;
+    playRound(paperValue,getComputerChoice());
+}
+
+function getScissorsButtonValue(){    
+    const scissorsValue = document.querySelector("#scissor-button").value;
+    playRound(scissorsValue,getComputerChoice());
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock-Paper-Scissors</title>
-    <script src="myScript.js" defer></script> 
+    <script src="myScript.js"></script> 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     
@@ -35,7 +35,7 @@
     <div class="options">
         <div class = "card">
             <div class="card-box">
-                <button onclick="getButtonValue()" id="rock-button" value="rock">
+                <button onclick="getRockButtonValue()" id="rock-button" value="rock">
                 <img src="images/rock.webp" alt="rock-image" class="rock-image">
                 </button>
             </div>
@@ -43,7 +43,7 @@
         </div>
         <div class = "card">
             <div class="card-box">
-                <button id="paper-button" value ="paper">
+                <button onclick="getPaperButtonValue()" id="paper-button" value ="paper">
                 <img src="images/paper.webp" alt="paper-image" class="paper-image">
                 </button>    
             </div>
@@ -51,7 +51,7 @@
         </div>
         <div class = "card">
             <div class="card-box">
-                <button id="scissor-button" value ="scissor">
+                <button onclick="getScissorsButtonValue()" id="scissor-button" value ="scissors">
                 <img src="images/scissor.webp" alt="scissor-image" class="scissor-image">
                 </button>
             </div>
