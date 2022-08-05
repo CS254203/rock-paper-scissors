@@ -29,7 +29,7 @@ button {
     margin-right: auto;
 }
 
-.score{
+#score{
     font-size: 30px;
     font-weight: bold;
 }
